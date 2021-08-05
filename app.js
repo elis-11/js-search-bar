@@ -1,6 +1,7 @@
 
 const charactersList = document.getElementById('charactersList');
-let hpCharacters = [];
+const searchBar = document.getElementById('searchBar');
+// let hpCharacters = [];
 
 const loadCharacters = async () => {
     try {
